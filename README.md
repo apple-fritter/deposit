@@ -10,4 +10,4 @@ Some apps may not allow clearing their cache from the command line. Also, cleari
 
 ## License
 
-This script is released under the [MIT License](LICENSE).
+These files released under the [MIT License](LICENSE).

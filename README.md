@@ -7,3 +7,7 @@ This script is intended for use directly on the device to free up space on the f
 
 ## Considerations:
 Some apps may not allow clearing their cache from the command line. Also, clearing the cache for some system packages may cause issues with the device's performance, so use this script with caution.
+
+## License
+
+This script is released under the [MIT License](LICENSE).

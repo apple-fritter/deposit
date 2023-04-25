@@ -1,4 +1,4 @@
-# android-cache.clear
+# android.cache-clear
 ## Introduction
 If you're running low on storage space on your Android device, clearing the cache for your installed apps can be a quick and easy way to free up some room. However, clearing the cache for each app individually can be a tedious and time-consuming process. Fortunately, there's a non-root method to clear the cache for all packages on your device using a simple `Bash` script.
 

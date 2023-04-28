@@ -1,5 +1,4 @@
-# android.cache-clear
-## Introduction
+# deposit
 If you're running low on storage space on your Android device, clearing the cache for your installed apps can be a quick and easy way to free up some room. However, clearing the cache for each app individually can be a tedious and time-consuming process. Fortunately, there's a non-root method to clear the cache for all packages on your device using a simple `Bash` script.
 
 The script uses the `pm` command with the clear option to clear the cache for each package. To automate the process, the script first lists all installed packages along with their file paths using `pm list packages -f`, and then extracts only the package names using `awk`. By looping through each package name and running `pm clear`, the script can clear the cache for all installed apps with a single action.
